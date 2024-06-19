@@ -60,3 +60,17 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+
+/* projects */
+.projects {
+    background-color: #b88c03;
+    background-image: url("../img/projects-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.grid-2{
+    grid-template-columns: repeat(2, 1fr);
+}
