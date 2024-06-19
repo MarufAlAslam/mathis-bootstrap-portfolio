@@ -71,6 +71,16 @@
     background-position: bottom;
 }
 
-.grid-2{
+.grid-2 {
     grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* resume */
+.resume {
+    background-image: url("../img/resume-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-color: #030c36;
 }
