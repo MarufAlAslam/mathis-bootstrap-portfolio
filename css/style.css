@@ -105,3 +105,75 @@ button.btn.btn-yellow.w-100.py-5.d-block {
     padding-bottom: 20px !important;
     font-size: 20px;
 }
+
+
+/* footer */
+.footer {
+    background-color: #030c36;
+}
+
+.border-end.border-white {
+    border-color: #7a7e95 !important;
+}
+
+.footer-menu a {
+    font-size: 14px;
+}
+
+.line {
+    background-color: #7a7e95;
+    width: 150px;
+    height: 1px;
+    margin: auto;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .slide .m-auto {
+        margin: 50px 2px;
+    }
+
+    .projects .row {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .resume .row,
+    .about .row {
+        gap: 50px;
+    }
+
+    .footer img.img-fluid.w-75 {
+        width: 300px !important;
+        margin-bottom: 50px;
+        text-align: center;
+        margin-left: auto !important;
+        display: block;
+        margin-right: auto;
+    }
+
+    .border-end.border-white {
+        border-color: transparent !important;
+    }
+
+    .footer .row {
+        gap: 50px;
+        text-align: center;
+    }
+
+    .footer .d-flex.justify-content-between.align-items-center {
+        justify-content: center !important;
+        gap: 100px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .footer img.img-fluid.w-75 {
+        width: 150px !important;
+    }
+}
