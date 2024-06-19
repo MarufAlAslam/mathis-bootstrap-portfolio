@@ -49,3 +49,14 @@
     opacity: 1;
     color: #b88c03;
 }
+
+.text-golden {
+    color: #b88c03;
+}
+
+
+/* about */
+.py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
