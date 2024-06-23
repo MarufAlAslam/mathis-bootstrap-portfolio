@@ -177,3 +177,11 @@ button.btn.btn-yellow.w-100.py-5.d-block {
         width: 150px !important;
     }
 }
+
+
+
+/* other pages */
+.breadcrumb{
+    padding: 200px 0;
+    text-align: center !important;
+}
