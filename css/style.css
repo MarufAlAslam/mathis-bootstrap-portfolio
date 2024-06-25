@@ -181,7 +181,35 @@ button.btn.btn-yellow.w-100.py-5.d-block {
 
 
 /* other pages */
-.breadcrumb{
+.breadcrumb {
     padding: 200px 0;
     text-align: center !important;
+}
+
+.project-img {
+    height: 250px;
+    width: 100%;
+    object-position: top;
+}
+
+.has-bg {
+    background-color: #b88c03;
+    background-image: url("../img/projects-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: white;
+}
+
+.games-hero{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/games-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.projects-hero{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/project-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
