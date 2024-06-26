@@ -213,3 +213,9 @@ button.btn.btn-yellow.w-100.py-5.d-block {
     background-repeat: no-repeat;
     background-position: bottom;
 }
+.bio-hero{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/bio-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
